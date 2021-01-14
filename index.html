@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            $(window).scroll(function(){
+                $('nav').toggleClass('scrolled',$(this).scrollTop()>50);
+            });
+            </script>
+    </head>
+    <body onload="myFunction()">
+        <div id="loading">
+
+        </div>
+
+        <header class="">
+          <nav class="navbar navbar-expand-lg bgcolor">
+            <div class="container">
+              <a class="navbar-brand" href="index.html"><h2>Host <em>Cloud</em></h2></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-body" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-body " href="services.html">Our Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-body" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="functional-buttons">
+                <ul>
+                  <li><a href="#">Log in</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+    
+
+ <!-- Banner Starts Here -->
+ <div class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="header-text caption">
+            <h2>Search your domain</h2>
+            <div id="search-section">
+                <form id="suggestion_form"  action="#">
+              <div class="searchText">
+                
+                <input type="text" name="q" class="searchText " placeholder="Enter your domain here..." autocomplete="on">
+                <ul>
+                  <li><label><input type="checkbox" name="ext_com" value="1"><span>.com <em>($10/yr)</em></span></label></li>
+                  <li><label><input type="checkbox" name="ext_net" value="1"><span>.net <em>($12/yr)</em></span></label></li>
+                  <li><label><input type="checkbox" name="ext_org" value="1"><span>.org <em>($8/yr)</em></span></label></li>
+                  <li><label><input type="checkbox" name="ext_in" value="1"><span>.in <em>($6/yr)</em></span></label></li>
+                </ul>
+              </div>
+                  <input type="submit" name="results" class="main-button" value="Search Now">
+               </form>
+             <div class="advSearch_chkbox">
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Banner Ends Here -->
+        <section class="logo">
+            <div class="container">
+                <h5 class="pt-5 text-center pb-5">TRUSTED BY 1,250 + HAPPY  CUSTOMERS WORLD WIDE </h5 >
+                <div class="row pt-5 pb-5">
+                    <div class="col-sm-3 pb-5">
+                       <img src="https://templatemo.com/templates/templatemo_541_host_cloud/assets/images/trusted-01.png" class="img-fluid" alt="description" />
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="https://templatemo.com/templates/templatemo_541_host_cloud/assets/images/trusted-01.png" class="img-fluid" alt="description" />
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="https://templatemo.com/templates/templatemo_541_host_cloud/assets/images/trusted-01.png" class="img-fluid" alt="description"/>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="https://templatemo.com/templates/templatemo_541_host_cloud/assets/images/trusted-01.png" class="img-fluid" alt="description" />
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section pb-5">
+            <div class="container pt-5">
+                <p class="section-services pt-5 ">Hosting Services</p>
+                <h3 class="font-weight-bold">Services We Provide</h3>
+                <p class="text pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, dui pellentesque gravida convallis, ipsum orci ullamcorper justo, eu varius leo libero sit.</p>
+                <div class="row pb-5">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-item">
+                            <i class="fa fa-database "></i>
+                            <p class="text-body"><b>10 x Light Cloud</b></p>
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, dui pellentesque gravida convallis, .</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-item">
+                            <i class="fa fa-database "></i>
+                            <p class="text-body"><b>10 x Light Cloud</b></p>
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, dui pellentesque gravida convallis, .</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-item">
+                            <i class="fa fa-database "></i>
+                            <p class="text-body"><b>10 x Light Cloud</b></p>
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, dui pellentesque gravida convallis, .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <!-- Pricing Starts Here -->
+  <div class="pricing-section">
+    <div class="background-image-pricing">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="section-heading pb-5">
+            <h2>Cloud Hosting Plans</h2>
+            <p>Lorem ipsum dolor amet taxidermy sriracha cardigan salvia actually vice migas enamel pin sustainable carry scenester lomo hot chicken farm table actually kinfolk.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="pricing-item">
+            <h4>Basic Cloud 5x</h4>
+            <div class="price">
+              <h6>$15.50</h6>
+              <span>monthly</span>
+            </div>
+            <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
+            <div class="dev"></div>
+            <ul>
+              <li><i class="fa fa-check"></i>500 GB Storage Space</li>
+              <li><i class="fa fa-check"></i>3 TB Data Transfer</li>
+              <li><i class="fa fa-check"></i>Basic Managed Panel</li>
+              <li><i class="fa fa-check"></i>24/7 Fast Support</li>
+              <li><i class="fa fa-check"></i>100 Premium Themes</li>
+              <li><i class="fa fa-check"></i>Cancel or Upgrade Anytime</li>
+            </ul>
+            <a href="#" class="main-button">Start Plan</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="pricing-item">
+            <h4>Cloud VPS 10x</h4>
+            <div class="price price-gradient">
+              <h6>$30.00</h6>
+              <span>monthly</span>
+            </div>
+            <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
+            <div class="dev"></div>
+            <ul>
+              <li><i class="fa fa-check"></i>1 TB Cloud Space</li>
+              <li><i class="fa fa-check"></i>8 TB Data Transfer</li>
+              <li><i class="fa fa-check"></i>Fully Managed Panel</li>
+              <li><i class="fa fa-check"></i>15-minute Quick Support</li>
+              <li><i class="fa fa-check"></i>Unlimted Web Addons</li>
+              <li><i class="fa fa-check"></i>Cancel or Upgrade Anytime</li>
+            </ul>
+            <a href="#" class="gradient-button">Select Plan</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="pricing-item">
+            <h4>Advanced Cloud</h4>
+            <div class="price">
+              <h6>$72.25</h6>
+              <span>monthly</span>
+            </div>
+            <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
+            <div class="dev"></div>
+            <ul>
+              <li><i class="fa fa-check"></i>4 TB Cloud Space</li>
+              <li><i class="fa fa-check"></i>20 TB Data Transfer</li>
+              <li><i class="fa fa-check"></i>Fully Managed Panel</li>
+              <li><i class="fa fa-check"></i>15-minute Quick Support</li>
+              <li><i class="fa fa-check"></i>Top Notch Web Apps</li>
+              <li><i class="fa fa-check"></i>Advanced Scalable</li>
+            </ul>
+            <a href="#" class="main-buttons">Take it now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pricing Ends Here -->
+
+
+ <!-- Features Starts Here -->
+ <div class="features-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pb-5">
+          <div class="section-heading">
+            <span>Best Quality for you</span>
+            <h2>Cloud Features</h2>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="feature-item">
+            <div class="icon">
+              <img src="img/feature-01.png" alt="description">
+            </div>
+            <h4>Load Balanced</h4>
+            <p>Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. Vivamus nec metus mauris. Praesent lacinia tempus urna.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-item">
+            <div class="icon">
+                <img src="img/feature-01.png" alt="description">
+            </div>
+            <h4>99.9% Uptime Guaranteed</h4>
+            <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-item">
+            <div class="icon">
+                <img src="img/feature-01.png" alt="description">
+            </div>
+            <h4>Top Reliability</h4>
+            <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-item">
+            <div class="icon">
+                <img src="img/feature-01.png" alt="description">
+            </div>
+            <h4>High Security</h4>
+            <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-item">
+            <div class="icon">
+                <img src="img/feature-01.png" alt="description">
+            </div>
+            <h4>Quality Hardwares</h4>
+            <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="feature-item">
+            <div class="icon">
+                <img src="img/feature-01.png" alt="description">
+            </div>
+            <h4>Network Solutions</h4>
+            <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Features Ends Here -->
+
+
+
+
+
+
+ 
+        <section class="section-testimonials pt-5">
+            <div class="container">
+            <p class="section-services  text-center "><b>Testimonials</b></p>
+            <h3 class="font-weight-bold text-center pb-5">What They Say About US</h3>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+          
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+           
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="section-icon text-center">
+                            <i class="fa fa-quote-right"></i>
+                            <p class="pt-5 icon-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh. Nam varius diam sodales, lacinia turpis et, tempus odio. Cras in turpis mi.</p>
+                            <h6 class="font-weight-bold text-center ">Trivor Liam</h6>
+                            <p class="section-test text-center "><b>Technology Chief</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="section-icon text-center">
+                            <i class="fa fa-quote-right"></i>
+                            <p class="pt-5 icon-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh. Nam varius diam sodales, lacinia turpis et, tempus odio. Cras in turpis mi.</p>
+                            <h6 class="font-weight-bold text-center ">Trivor Liam</h6>
+                            <p class="section-test text-center "><b>Technology Chief</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="section-icon text-center">
+                            <i class="fa fa-quote-righsection-testimonialst"></i>
+                            <p class="pt-5 icon-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus nisi vel magna hendrerit posuere. Donec faucibus ipsum at mattis malesuada. Sed erat justo, imperdiet vel turpis aliquet, interdum maximus nibh. Nam varius diam sodales, lacinia turpis et, tempus odio. Cras in turpis mi.</p>
+                            <h6 class="font-weight-bold text-center ">Trivor Liam</h6>
+                            <p class="section-test text-center "><b>Technology Chief</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-dots">
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <i class="fa fa-circle fa4  mr-auto text-center" aria-hidden="true"></i>
+                <i class="fa fa-circle fa4  ml-0 text-center" aria-hidden="true"></i>
+                <i class="fa fa-circle fa4  ml-0 text-center" aria-hidden="true"></i>
+             
+            </div>
+        </section>
+        <section class="section-footer">
+            <div class="container pb-5">
+                <div class="row pb-5">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">About US</p>
+                        <p class="footer-contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, dui pellentesque gravida convallis, ipsum orci ullamcorper justo, eu varius leo libero sit.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">Hosting Plans</p>
+                        <div class="footer-content">
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">Useful Links</p>
+                        <div class="footer-content">
+                            <p>Cloud Hosting Plateform</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                            <p>Basic cloud 5x</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <p class="font-weight-bold text-left">More Information</p>
+                        <div class="footer-content">
+                            <p><strong>Phone:</strong>010-020-05578</p>
+                            <p><strong>Email:</strong>mail@company.com</p>
+                            <p><strong>Support:</strong>mail@company.com</p>
+                            <p><strong>Website:</strong>www.company.com </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border">
+                <p class="pt-5">Copyright@2020  Clod Hosted By Company Designed By Template</p>
+            </div>
+        </section>
+        <script>
+            var preloader = document.getElementById('loading');
+            function myFunction(){
+                preloader.style.display ='none';
+            }
+        </script>
+    </body>
+</html>
+
